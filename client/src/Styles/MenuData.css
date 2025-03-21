@@ -1,0 +1,46 @@
+.menu-container {
+    width: 100wh;
+    background: #111;
+    padding: px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .menu-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(#000000CC, #000000CC),url("../assets/middleImg.png");
+    background-size: contain;
+  }
+  
+  .tab {
+    margin:20px;
+    background: #454545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border:0.5px solid #0796EF;
+    font-weight: 600;
+    font-size: 16px;
+    
+  }
+  
+  .tab.active {
+    background: #0796EF;
+  }
+  
+  .menu-content {
+    border: 3.5px #FFFFFF;
+    padding:20px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 6px;
+
+  }
+  
+ 
