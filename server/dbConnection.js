@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
-require("dotenv").config(); // Ensure environment variables are loaded
+require("dotenv").config();
 
-// Use the MongoDB URL from the environment variables
-const mongoURI = process.env.MONGODB_URL || "mongodb://127.0.0.1/MenuManagement";
+const mongoURI =
+  process.env.MONGODB_URL || "mongodb://127.0.0.1/MenuManagement";
 
 mongoose.connect(mongoURI, {
   useNewUrlParser: true,
